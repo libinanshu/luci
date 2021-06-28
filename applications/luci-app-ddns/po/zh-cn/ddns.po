@@ -434,7 +434,7 @@ msgid "OPTIONAL: Proxy-Server for detection and updates."
 msgstr "可选：用于检测以及更新的代理服务器。"
 
 msgid "OPTIONAL: Use non-default DNS-Server to detect 'Registered IP'."
-msgstr "可选：使用非默认 DNS 服务器检测\"已注册的 IP 地址\"。"
+msgstr "可选：使用非默认 DNS 服务器检测\"已注册的 IP 地址\"。<br />中国大陆用户推荐使用阿里云DNS服务器：<br />IPv4：223.5.5.5或223.6.6.6<br />IPv6：2400:3200::1或2400:3200:baba::1"
 
 msgid "On Error the script will retry the failed action after given time"
 msgstr "当出错时，脚本将会重试失败的动作的次数"

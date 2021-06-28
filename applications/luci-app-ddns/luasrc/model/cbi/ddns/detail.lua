@@ -1278,7 +1278,7 @@ end
 slog = ns:taboption("advanced", ListValue, "use_syslog",
 	translate("Log to syslog"),
 	translate("Writes log messages to syslog. Critical Errors will always be written to syslog.") )
-slog.default = "2"
+slog.default = "0
 slog:value("0", translate("No logging"))
 slog:value("1", translate("Info"))
 slog:value("2", translate("Notice"))
