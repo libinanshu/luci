@@ -823,6 +823,9 @@ msgstr "DSL 线路模式"
 msgid "DTIM Interval"
 msgstr "DTIM 间隔"
 
+msgid "Short Preamble"
+msgstr "短前导码"
+
 msgid "DUID"
 msgstr "DUID"
 
@@ -1131,6 +1134,9 @@ msgstr "封装模式"
 
 msgid "Encryption"
 msgstr "加密"
+
+msgid "No Encryption"
+msgstr "无加密"
 
 msgid "Endpoint Host"
 msgstr "端点主机"
