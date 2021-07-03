@@ -183,7 +183,10 @@
 				if (checked && tok !== null && typeof(tok) === 'object' && typeof(tok.token) === 'string')
 					uci_confirm_auth = tok;
 
-				uci_confirm(checked, Date.now() + uci_apply_rollback * 1000);
+				if(this.location.pathname == "/cgi-bin/luci/admin/network/network/lan" && document.getElementById("cbid.network.lan.ipaddr")!=null)
+					this.location.href = "http://" + document.getElementById("cbid.network.lan.ipaddr").value + this.location.pathname;
+				else
+					uci_confirm(checked, Date.now() + uci_apply_rollback * 1000);
 			}
 			else if (checked && r.status === 204) {
 				uci_status_message('notice', '<%:There are no changes to apply.%>');

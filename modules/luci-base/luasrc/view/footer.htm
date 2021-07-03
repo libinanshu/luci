@@ -15,7 +15,7 @@
 	<script type="text/javascript">
 		document.addEventListener("DOMContentLoaded", function() {
 			<% if trigger_apply then -%>
-				uci_apply(true);
+				uci_apply(false);
 			<%- elseif trigger_revert then -%>
 				uci_revert();
 			<%- else -%>
